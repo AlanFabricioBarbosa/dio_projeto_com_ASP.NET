@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/build/myapp/myapp.csproj": {}
+    "/home/user/aprendendoaspnet/myapp.csproj": {}
   },
   "projects": {
-    "/build/myapp/myapp.csproj": {
+    "/home/user/aprendendoaspnet/myapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/build/myapp/myapp.csproj",
+        "projectUniqueName": "/home/user/aprendendoaspnet/myapp.csproj",
         "projectName": "myapp",
-        "projectPath": "/build/myapp/myapp.csproj",
+        "projectPath": "/home/user/aprendendoaspnet/myapp.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/build/myapp/obj/",
+        "outputPath": "/home/user/aprendendoaspnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
