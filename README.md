@@ -18,6 +18,7 @@ O projeto foi desenvolvido com ASP.NET 8 Minimal APIs, utilizando as práticas m
 - **ASP.NET Core Minimal APIs**: Para a criação de endpoints HTTP com o mínimo de código e complexidade.
 - **Entity Framework Core (In-Memory Provider)**: Para o acesso a dados de forma simples, sem a necessidade de um banco de dados externo.
 - **Swagger / OpenAPI**: Para documentação interativa e testes da API, integrado através do pacote `Swashbuckle.AspNetCore`.
+- **Firebase Studio
 
 ## Pré-requisitos
 
